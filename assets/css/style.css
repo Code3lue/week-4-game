@@ -1,0 +1,80 @@
+body {
+	background-image: url("../images/rainforest.jpg");
+}
+
+.directions {
+	text-align: center;
+}
+
+.instructions {
+	text-align: left;
+	font-weight: bold;
+	color: red;
+	font-size: 18px;
+}
+
+.instructions:hover {
+	text-align: left;
+	font-weight: bold;
+	color: red;
+	font-size: 18px;
+	background-color: black;
+}
+
+
+
+
+h1 {
+	background-color: white;
+	width: 150px;
+	font-family: 'Baloo', cursive;
+}
+
+.crystals {
+	display: flex;
+	justify-content: center;
+
+}
+.crystal {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	border-radius: 14px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+.blue {
+	background-image: url("../images/blue-crystal.jpg");
+	background-size: cover;
+	
+}
+
+.yellow {
+	background-image: url("../images/yellow-crystal.jpg");
+	background-size: cover;
+}
+
+.red {
+	background-image: url("../images/red-crystal.jpg");
+	background-size: cover;
+}
+
+.green {
+	background-image: url("../images/green-crystal.jpg");
+	background-size: cover;
+}
+
+.crystal p {
+	display: none;
+}
+
+.blue:hover, .yellow:hover, .green:hover, .red:hover {
+	width: 75px;
+	height: 75px;
+}
+

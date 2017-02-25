@@ -1,0 +1,15 @@
+Pseudocode star wars
+we need to assign variables for each character
+var luke
+var han
+var darth
+var boba
+ 
+
+ we need to have a have an onclick function to call these characters into play
+
+then computer randomly selects the remaining character to battle selected character
+
+we need a variable to hold the hp of the characters and attack power
+
+we need to multiply attack value by a certain amount based on the character we choose to attack
